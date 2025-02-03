@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.drag-area {
+    width: 549px;
+    height: 555px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    background: #EFF4FB;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.drop-area {
+    border: 2px dashed #ccc;
+    width: 549px;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 20px;
+    background: #EFF4FB;
+
+}
+
+.draggable {
+    margin: 5px;
+    padding: 10px;
+    background: #FFFFFF;
+    width: 422px;
+    height: 93px;
+    padding: 20px 0px 0px 0px;
+    gap: 22px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px 0px #00000040;
+
+
+}
