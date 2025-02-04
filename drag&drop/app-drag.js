@@ -1,4 +1,19 @@
 let draggedItem = null;
+function loadPositions() {
+    const savedPosition = localStorage.getItem('draggedItemPosition');
+    if (savedPosition) {
+        const dropArea = document.querySelector(".drop-area");
+        const draggedElement = document.getElementById(savedPosition);
+        if (draggedElement) {
+            dropArea.appendChild(draggedElement);
+        }
+    }
+}
+
+// Function to save the position of the dragged item
+function savePosition(itemId) {
+    localStorage.setItem('draggedItemPosition', itemId);
+}
 
 const draggableEl = document.querySelectorAll(".draggable");
 draggableEl.forEach(element =>{
