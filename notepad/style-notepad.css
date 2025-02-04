@@ -1,7 +1,7 @@
-.container {
+.main {
     width: 898px;
     height: 535px;
-    background-color: #9fc207;
+    background: #FFFFFF;
     margin: auto;
     margin-top: 5%;
     display: flex;
@@ -10,9 +10,60 @@
     align-items: center;
 }
 
-button {
-width: 50%;
+h3 {
+    font-family: NATS;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 63.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#addNotepad {
+    width: 708px;
+    height: 48px;
     border-radius: 10px;
     background: #3D633B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
 
+.container{
+    width: 708px;
+    height: 82px;
+    height: 82px;background: #D2D2D2;
+}
+.input {
+    width: 650px;
+    height: 82px;
+    border-radius: 7px;
+    background: #D2D2D2;
+    margin-top: 10px;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.input {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+
+.deleteButton {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    background:#FFFFFF;
+ border: none;
 }
