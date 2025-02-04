@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joke</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #FF6347;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            color: #696969;
+            font-style: italic;
+        }
+
+        #joke {
+            color: #008080;
+            font-size: 1.5em;
+            font-weight: bold;
+            transition: color 0.5s;
+        }
+
+        button {
+            background-color: #FF6347;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #joke.loading {
+            color: #FFD700;
+            font-size: 1.7em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chuck Norris Joke Generator</h1>
+        <p id="joke">Click the button to get a joke!</p>
+        <button id="getJoke">Get Joke</button>
+    </div>
+    <script src="app-joke.js">
+
+    </script>
+</body>
+</html>
