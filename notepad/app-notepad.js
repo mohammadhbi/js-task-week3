@@ -20,7 +20,7 @@ function loadSavedNotepads() {
             createInput.value = value;
 
             const deleteButton = document.createElement("button");
-            deleteButton.textContent = "❌";
+            deleteButton.innerHTML = `<button id="btn"><i class="fa fa-trash-o"></i></button>`;
             deleteButton.classList.add("deleteButton");
             deleteButton.addEventListener("click", function () {
                 deleteNotepad(createInput, key, createNotepad);
